@@ -12,4 +12,4 @@ data class PhotoURLs(
     val large: String?,
     val full: String?,
     val raw: String?
-): Parcelable
+) : Parcelable

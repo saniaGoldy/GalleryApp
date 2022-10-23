@@ -14,7 +14,8 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class GalleryViewModel @Inject constructor(private val fetchPhotosUseCase: FetchPhotosUseCase): ViewModel() {
+class GalleryViewModel @Inject constructor(private val fetchPhotosUseCase: FetchPhotosUseCase) :
+    ViewModel() {
 
     private val _photos = MutableLiveData<DataState<List<Photo>>>()
     val photos: LiveData<DataState<List<Photo>>>

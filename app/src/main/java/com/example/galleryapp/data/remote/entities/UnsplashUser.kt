@@ -1,10 +1,5 @@
 package com.example.galleryapp.data.remote.entities
 
-import android.os.Parcelable
-import com.example.galleryapp.data.remote.entities.UnsplashLinks
-import com.example.galleryapp.data.remote.entities.UnsplashUrls
-import kotlinx.android.parcel.Parcelize
-
 data class UnsplashUser(
     val id: String,
     val username: String,

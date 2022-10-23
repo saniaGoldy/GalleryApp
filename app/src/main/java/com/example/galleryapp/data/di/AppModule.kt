@@ -1,7 +1,6 @@
 package com.example.galleryapp.data.di
 
 import android.content.Context
-import android.provider.SyncStateContract
 import com.chuckerteam.chucker.api.ChuckerCollector
 import com.chuckerteam.chucker.api.ChuckerInterceptor
 import com.example.galleryapp.data.remote.NetworkEndpoints

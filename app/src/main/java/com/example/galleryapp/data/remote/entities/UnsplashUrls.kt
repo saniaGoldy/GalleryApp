@@ -1,8 +1,5 @@
 package com.example.galleryapp.data.remote.entities
 
-import android.os.Parcelable
-import kotlinx.android.parcel.Parcelize
-
 data class UnsplashUrls(
     val thumb: String?,
     val small: String,
