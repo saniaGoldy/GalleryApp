@@ -51,7 +51,6 @@ object AppModule {
                 val request = chain
                     .request()
                     .newBuilder()
-                    //.addHeader("Client_id", "Pvb3Cedhn4J0DiSKGHLRvXlhwQZcxjwf1ucZV2zRFf0")
                     .build()
                 chain.proceed(request)
             }

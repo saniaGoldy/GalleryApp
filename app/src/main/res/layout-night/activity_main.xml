@@ -7,8 +7,6 @@
     tools:context=".ui.mainActivity.MainActivity">
 
 
-
-
     <TextView
         android:id="@+id/noInternetConnectionTV"
         android:layout_width="wrap_content"
@@ -19,7 +17,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
-        android:background="#222535"
+        android:background="#8F9CE6"
         android:text="@string/no_internet_connection"
         android:textAlignment="center"
         android:textColor="?android:attr/textColorPrimaryInverse" />

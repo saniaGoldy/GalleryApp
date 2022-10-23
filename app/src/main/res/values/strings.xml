@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">GalleryApp</string>
     <string name="no_internet_connection">No internet connection</string>
-<!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="standart_error_message">something went wrong</string>
+    <string name="author">author</string>
+    <string name="image_name">image name</string>
+    <string name="standart_image_description">Some image</string>
 </resources>

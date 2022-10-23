@@ -3,14 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.gallery.ListFragment">
+    tools:context=".ui.fullSizePhoto.FullSizePhotoFragment">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <ImageView
+        android:id="@+id/fullSizePhotoIV"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@layout/gallery_item"
-        />
-
+        tools:src="@tools:sample/avatars" />
 </FrameLayout>
