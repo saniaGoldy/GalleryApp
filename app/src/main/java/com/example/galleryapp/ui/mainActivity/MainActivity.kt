@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.viewModels
 import androidx.core.view.isVisible
+import androidx.navigation.NavController
+import androidx.navigation.fragment.NavHostFragment
 import com.example.galleryapp.R
 import com.example.galleryapp.TAG
 import com.example.galleryapp.databinding.ActivityMainBinding
@@ -26,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setupNetworkObserver()
+
     }
 
     private fun setupNetworkObserver() {
@@ -36,5 +39,4 @@ class MainActivity : AppCompatActivity() {
                 status != ConnectivityObserver.Status.Available
         }
     }
-
 }

@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Sania/Projects/AndroidStudio/GalleryApp/app/src/main/res/layout-night/activity_main.xml" value="0.23007246376811594" />
         <entry key="..\:/Sania/Projects/AndroidStudio/GalleryApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Sania/Projects/AndroidStudio/GalleryApp/app/src/main/res/layout/fragment_full_size_photo.xml" value="0.23007246376811594" />
+        <entry key="..\:/Sania/Projects/AndroidStudio/GalleryApp/app/src/main/res/layout/fragment_gallery.xml" value="0.196875" />
         <entry key="..\:/Sania/Projects/AndroidStudio/GalleryApp/app/src/main/res/layout/fragment_list.xml" value="0.23007246376811594" />
         <entry key="..\:/Sania/Projects/AndroidStudio/GalleryApp/app/src/main/res/layout/gallery_item.xml" value="0.264" />
       </map>
