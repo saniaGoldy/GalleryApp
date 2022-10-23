@@ -1,11 +1,10 @@
 package com.example.galleryapp.ui.mainActivity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
-import com.example.galleryapp.R
 import com.example.galleryapp.TAG
 import com.example.galleryapp.databinding.ActivityMainBinding
 import com.example.galleryapp.domain.services.ConnectivityObserver
@@ -26,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setupNetworkObserver()
+
     }
 
     private fun setupNetworkObserver() {
@@ -36,5 +36,4 @@ class MainActivity : AppCompatActivity() {
                 status != ConnectivityObserver.Status.Available
         }
     }
-
 }

@@ -1,7 +1,6 @@
 package com.example.galleryapp.data.di
 
 import android.content.Context
-import android.provider.SyncStateContract
 import com.chuckerteam.chucker.api.ChuckerCollector
 import com.chuckerteam.chucker.api.ChuckerInterceptor
 import com.example.galleryapp.data.remote.NetworkEndpoints
@@ -51,7 +50,6 @@ object AppModule {
                 val request = chain
                     .request()
                     .newBuilder()
-                    //.addHeader("Client_id", "Pvb3Cedhn4J0DiSKGHLRvXlhwQZcxjwf1ucZV2zRFf0")
                     .build()
                 chain.proceed(request)
             }

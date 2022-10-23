@@ -13,7 +13,7 @@ data class UnsplashPhoto(
     val description: String?,
     val exif: Exif,
     val location: Location,
-    val current_user_collections:List<UserCollection>,
+    val current_user_collections: List<UserCollection>,
     val urls: UnsplashUrls,
     val links: UnsplashLinks,
     val user: UnsplashUser

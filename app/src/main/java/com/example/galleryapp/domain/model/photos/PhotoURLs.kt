@@ -1,6 +1,10 @@
-package com.example.galleryapp.data.remote.entities
+package com.example.galleryapp.domain.model.photos
 
-data class UnsplashUrls(
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
+data class PhotoURLs(
     val thumb: String?,
     val small: String,
     val medium: String?,
@@ -8,4 +12,4 @@ data class UnsplashUrls(
     val large: String?,
     val full: String?,
     val raw: String?
-)
+) : Parcelable
